@@ -1,0 +1,23 @@
+.text-3d {
+  font-size: 4em;
+  color: #fff;
+  text-shadow: 1px 1px 0 #000, 2px 2px 0 #000, 3px 3px 0 #000, 4px 4px 0 #000;
+  transform: perspective(1000px) rotateX(15deg) rotateY(5deg);
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+/* 悬停增强效果 */
+.text-3d:hover {
+  transform: perspective(1000px) rotateX(10deg) rotateY(0deg) scale(1.05);
+}
+
+.text-shadow-hover {
+  color: var(--accent-cool); /* 湖天蓝文字 */
+  transition: text-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-shadow: 2px 2px 4px rgba(58, 152, 185, 0.3);
+}
+
+.text-shadow-hover:hover {
+  text-shadow: 2px 2px 6px rgba(58, 152, 185, 0.4), -2px -2px 4px rgba(232, 240, 237, 0.6);
+}

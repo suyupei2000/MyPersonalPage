@@ -1,0 +1,39 @@
+:root {
+  /* 主色调 - 晨雾森林 */
+  /* 深苔藓绿（标题/重点元素） */
+  --primary-base: #2d4f43;
+  /* 雾凇灰绿（次级标题） */
+  --primary-light: #5a7e71;
+  /* 晨露白（背景/容器） */
+  --primary-xlight: #e8f0ed;
+
+  /* 辅助色 - 暖阳光谱 */
+  /* 琥珀橙（按钮/链接） */
+  --accent-warm: #e08a33;
+  /* 湖天蓝（图标/装饰） */
+  --accent-cool: #3a98b9;
+
+  /* 中性色 - 大地脉络 */
+  /* 深夜土壤（正文） */
+  --neutral-900: #1a2421;
+  /* 岩石灰（次要文字） */
+  --neutral-600: #4b5b56;
+  /* 云朵白（浅背景） */
+  --neutral-200: #f5f7f6;
+  /* 雪地白（强背景） */
+  --neutral-100: #ffffff;
+
+  /* 状态色 */
+  /* 森林绿（成功提示） */
+  --success: #388e3c;
+  /* 落叶黄（警告提示） */
+  --warning: #ffb74d;
+  /* 篝火红（错误提示） */
+  --error: #d32f2f;
+
+  /* 晨曦渐变（可用于页眉/卡片背景） */
+  --gradient-dawn: linear-gradient(135deg, #e08a33 0%, #e8f0ed 50%, #3a98b9 100%);
+
+  /* 苔原渐变（用于悬停效果） */
+  --gradient-moss: linear-gradient(to right, rgba(45, 79, 67, 0.1) 0%, rgba(45, 79, 67, 0) 100%);
+}
