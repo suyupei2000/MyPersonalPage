@@ -19,7 +19,8 @@
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
     "lint:lint-staged": "npm run lint:fix && npm run stylelint:fix",
     "ts-check": "vue-tsc --noEmit",
-    "prettier:write": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
+    "prettier:write": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.7.9",

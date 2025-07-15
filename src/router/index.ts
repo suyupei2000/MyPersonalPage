@@ -90,7 +90,8 @@ export const getActive = (maxLevel = 3): string => {
 
 const router = createRouter({
   // history: createWebHashHistory(),
-  history: createWebHistory(),
+  // history: createWebHistory(),
+  history: createWebHistory(import.meta.env.VITE_BASE_URL),
   routes: allRoutes,
   scrollBehavior() {
     return {
