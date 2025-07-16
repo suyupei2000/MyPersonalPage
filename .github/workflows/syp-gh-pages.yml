@@ -65,9 +65,17 @@ jobs:
           node-version: 20
       # - run: pnpm install
       # - run: pnpm run build
-      - run: npm install
-      - run: npm run build
-      - uses: peaceiris/actions-gh-pages@v3
+      - name: 安装依赖并打包
+        run: |
+          npm install
+          npm run build
+
+        # uses: peaceiris/actions-gh-pages@v3
+        # with:
+        #   github_token: ${{ secrets.GITHUB_TOKEN }}
+        #   publish_dir: ./dist
+      - name: 部署到 gh-pages 分支
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          branch: gh-pages
+          folder: dist
