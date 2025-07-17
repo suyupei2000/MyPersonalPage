@@ -1,1 +1,0 @@
-import{_ as t}from"./main-CjRQI0tg.js";import{c as r,b as o,m as a,p as c,o as n}from"./vendors-Dwov4o9O.js";const _={},d={class:"projects_page"},i={class:"main"};function p(m,e){const s=c("router-view");return n(),r("div",d,[e[0]||(e[0]=o("div",{class:"header"},"项目列表",-1)),o("div",i,[a(s)])])}const v=t(_,[["render",p],["__scopeId","data-v-f6be6787"]]);export{v as default};
