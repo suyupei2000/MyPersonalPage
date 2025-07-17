@@ -42,7 +42,8 @@ jobs:
 
   # view job
   view:
-    runs-on: windows-latest
+    # runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - run: pwd
       - run: ls
