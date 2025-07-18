@@ -92,5 +92,7 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "description": "Base on tdesign-starter-cli"
+  "description": "My personal page",
+  "author": "suyupei",
+  "license": "MIT"
 }

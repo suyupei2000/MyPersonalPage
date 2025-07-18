@@ -309,13 +309,8 @@ const skills = reactive<Skill[]>([
 ])
 
 const expertiseAreas = reactive<ExpertiseArea[]>([
-  //   { name: 'Web 开发', icon: Globe },
-  //   { name: '响应式设计', icon: Smartphone },
-  //   { name: 'UI/UX 设计', icon: Palette },
-  //   { name: '前端架构', icon: Code },
   { name: 'Web 开发', icon: null },
-  { name: '响应式设计', icon: null },
-  { name: 'UI/UX 设计', icon: null },
+  { name: '移动端开发', icon: null },
   { name: '前端架构', icon: null },
 ])
 

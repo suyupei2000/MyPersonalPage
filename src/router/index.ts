@@ -2,8 +2,8 @@ import {
   useRoute,
   createRouter,
   RouteRecordRaw,
-  // createWebHistory,
-  createWebHashHistory,
+  createWebHistory,
+  // createWebHashHistory,
 } from 'vue-router'
 import uniq from 'lodash/uniq'
 import HomePage from '@/views/homePage/index.vue'
@@ -95,8 +95,8 @@ export const getActive = (maxLevel = 3): string => {
 }
 
 const router = createRouter({
-  history: createWebHashHistory(),
-  // history: createWebHistory(),
+  // history: createWebHashHistory(),
+  history: createWebHistory(),
   // history: createWebHistory(import.meta.env.VITE_BASE_URL),
   routes: allRoutes,
   scrollBehavior() {
