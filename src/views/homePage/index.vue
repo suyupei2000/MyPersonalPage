@@ -11,7 +11,7 @@
           <div class="hidden md:flex items-center space-x-8">
             <a href="#about" class="text-gray-700 hover:text-blue-600 transition-colors">关于我</a>
             <a href="#skills" class="text-gray-700 hover:text-blue-600 transition-colors">技能</a>
-            <a href="#projects" class="text-gray-700 hover:text-blue-600 transition-colors">项目</a>
+            <a href="#projects" class="text-gray-700 hover:text-blue-600 transition-colors">作品</a>
             <a href="#contact" class="text-gray-700 hover:text-blue-600 transition-colors">联系</a>
           </div>
           <button class="md:hidden p-2 rounded-md text-gray-700 hover:text-blue-600" @click="toggleMobileMenu">
@@ -26,7 +26,7 @@
 
             <a href="#skills" class="text-gray-700 hover:text-blue-600" @click="closeMobileMenu">技能</a>
 
-            <a href="#projects" class="text-gray-700 hover:text-blue-600" @click="closeMobileMenu">项目</a>
+            <a href="#projects" class="text-gray-700 hover:text-blue-600" @click="closeMobileMenu">作品</a>
 
             <a href="#contact" class="text-gray-700 hover:text-blue-600" @click="closeMobileMenu">联系</a>
           </div>
@@ -182,8 +182,8 @@
     <section id="projects" class="bg-white py-20">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
-          <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-4">项目作品</h2>
-          <p class="text-xl text-gray-600">展示我个人平时开发学习的一些项目和作品</p>
+          <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-4">作品</h2>
+          <p class="text-xl text-gray-600">展示我个人平时开发学习的一些开发作品</p>
         </div>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div
@@ -239,7 +239,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
           <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-4">联系我</h2>
-          <p class="text-xl text-gray-600">有项目合作或工作机会？欢迎与我联系</p>
+          <p class="text-xl text-gray-600">有合作或工作机会？欢迎与我联系</p>
         </div>
         <div class="grid md:grid-cols-2 gap-8">
           <div

@@ -1,6 +1,6 @@
 <template>
   <div class="projects_page">
-    <div class="header">项目列表</div>
+    <div class="header">作品列表</div>
     <div class="main">
       <router-view />
     </div>

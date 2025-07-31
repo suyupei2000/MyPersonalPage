@@ -6,9 +6,9 @@
         <ul>
           <li><a href="#about">关于我</a></li>
           <li><a href="#skills">技能</a></li>
-          <!-- <li><a href="#projects">项目</a></li> -->
+          <!-- <li><a href="#projects">作品</a></li> -->
           <li>
-            <RouterLink to="/projects"> 项目 </RouterLink>
+            <RouterLink to="/projects">作品</RouterLink>
           </li>
           <li><a href="#contact">联系方式</a></li>
         </ul>
@@ -23,7 +23,7 @@
         <div class="user-name">苏余培</div>
         <div class="user-desc">
           <p>一个正在努力学习中，正在努力进步中，正在努力成长中的前端工程师。</p>
-          <p>欢迎来到我的个人网站，在这里你可以看到我正在学习的项目，我的个人简历，我的联系方式等。</p>
+          <p>欢迎来到我的个人网站，在这里你可以看到我正在学习的开发作品，我的个人简历，我的联系方式等。</p>
           <p>爱好是听歌，看动漫，喜欢计算机。</p>
         </div>
       </div>
