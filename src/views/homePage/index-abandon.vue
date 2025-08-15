@@ -43,6 +43,9 @@
     </main>
 
     <footer>
+      <a href="https://beian.mps.gov.cn/#/query/webSearch?code=44030002004855" rel="noreferrer" target="_blank"
+        >粤公网安备44030002004855号</a
+      >
       <a href="https://beian.miit.gov.cn" target="_blank">粤ICP备2024306845号</a>
     </footer>
   </div>

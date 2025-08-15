@@ -50,7 +50,7 @@
           </div>
           <div class="flex flex-col sm:flex-row gap-4">
             <button
-              class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2"
+              class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center gap-2"
             >
               <!-- <download class="h-5 w-5" /> -->
               下载简历
@@ -265,9 +265,24 @@
     <footer class="bg-white border-t py-8">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row justify-between items-center gap-4">
-          <div class="gap-2">
+          <div class="gap-2 text-1">
             <div class="h-6 w-6 text-blue-600" />
-            <a class="beian" href="https://beian.miit.gov.cn" target="_blank"> 粤ICP备2024306845号 </a>
+            <div class="flex flex-col md:flex-row">
+              <span class="inline-block pr-0 md:pr-4">
+                <img class="inline-block w-4" src="@/assets/beian/备案图标.png" alt="" />
+                <a
+                  class="beian"
+                  href="https://beian.mps.gov.cn/#/query/webSearch?code=44030002004855"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  粤公网安备44030002004855号
+                </a>
+              </span>
+
+              <a class="beian" href="https://beian.miit.gov.cn" target="_blank"> 粤ICP备2024306845号 </a>
+            </div>
+
             <div class="text-gray-600">© 2025 苏余培. 保留所有权利.</div>
           </div>
 
@@ -375,5 +390,29 @@ const closeMobileMenu = (): void => {
 </script>
 
 <style lang="less" scoped>
-@import url(./index.less);
+.home-page {
+  width: 100%;
+  height: 100vh;
+  scroll-behavior: smooth;
+  overflow: auto;
+  .beian {
+    color: #87cefa;
+    color: #004c99;
+  }
+}
+
+/* 自定义滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
 </style>
